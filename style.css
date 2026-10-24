@@ -17,7 +17,6 @@ body {
     background: #ffffff;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
 }
 
 .header-bg {
@@ -27,6 +26,8 @@ body {
     background-size: cover;
     background-position: center;
     position: relative;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 
 .quote-box {
